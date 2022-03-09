@@ -69,3 +69,25 @@ select {
     background-repeat: no-repeat;
     background-position: calc(100% - 5px);
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555;
+    color: #fff;
+    padding: 20px;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description h3, .description p {
+    padding: 10px;
+}
